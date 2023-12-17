@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaMarato Fertilidad</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; 
+        }
+
+        .image-container img {
+            margin: 0 10px; 
+            max-width: 20%;
+            height: auto;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .form-section {
+            margin-bottom: 20px;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+
+        .section-space {
+            height: 20px; 
+        }
+
+        .form-row {
+            display: flex;
+            flex-direction: column;
+            gap: 8px; 
+        }
+
+        fieldset {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 4px;
+        }
+
+        input {
+            margin-bottom: 8px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="uab.jpg" alt="Imagen 1">
+            <img src="upc.jpg" alt="Imagen 2">
+            <img src="bancisang.jpg" alt="Imagen 3">
+        </div>
+        <h1>Comprobador de Fertilidad</h1>
+        <form id="fertilityForm" enctype="multipart/form-data">
+            <fieldset class="form-section">
+                <legend>Datos Personales</legend>
+                <div class="form-row">
+
+                <label for="birthdate">Fecha de Nacimiento:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+
+                <label for="birthCity">Ciudad de Nacimiento:</label>
+                <input type="text" id="birthCity" name="birthCity" required>
+
+                <label for="residenceCity1">Ciudad de Residencia 1:</label>
+                <input type="text" id="residenceCity1" name="residenceCity1" required>
+
+                <label for="residenceCity2">Ciudad de Residencia 2:</label>
+                <input type="text" id="residenceCity2" name="residenceCity2" required>
+
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="isSmoker">¿Fumas?:</label>
+                <select id="isSmoker" name="isSmoker" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+
+                <label for="abstinenceDays">Abstinencia (en días):</label>
+                <input type="number" id="abstinenceDays" name="abstinenceDays" required>
+
+                </div>
+                <div class="form-row">
+                <label for="alcoholIntake">Consumo de Alcohol:</label>
+                <select id="alcoholIntake" name="alcoholIntake" required>
+                    <option value="Never">Never</option>
+                    <option value="Frequent">Frequent</option>
+                    <option value="Sporadic">Sporadic</option>
+                </select>
+
+                <label for="caffeineIntake">Cafeína (mg/día):</label>
+                <input type="number" id="caffeineIntake" name="caffeineIntake" required>
+
+                <label for="radiationExposure">Exposición a Radiación:</label>
+                <select id="radiationExposure" name="radiationExposure" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+        
+                <label for="chemicalExposure">Exposición a Sustancias Químicas:</label>
+                <select id="chemicalExposure" name="chemicalExposure" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+
+                <label for="diseases">Enfermedades (None/To insert different diseases, separated with ", "):</label>
+                <input type="text" id="diseases" name="diseases" required>
+
+                <label for="antibioticsLastMonth">Antibióticos durante el último mes:</label>
+                <select id="antibioticsLastMonth" name="antibioticsLastMonth" required>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-section">
+                <legend>Seminograma</legend>
+                <div class="form-row">
+                <label for="semenVolume">Volumen de Semen (ml):</label>
+                <input type="number" id="semenVolume" name="semenVolume" required>
+
+                <label for="spermConcentration">Concentración de Espermatozoides (M/ml):</label>
+                <input type="number" id="spermConcentration" name="spermConcentration" required>
+
+                <label for="totalSpermNumber">Número Total de Espermatozoides (x10^6):</label>
+                <input type="number" id="totalSpermNumber" name="totalSpermNumber" required>
+
+                <label for="totalMotility">Motilidad Total (%):</label>
+                <input type="number" id="totalMotility" name="totalMotility" required>
+
+                <label for="progressiveMotility">Motilidad Progresiva (%):</label>
+                <input type="number" id="progressiveMotility" name="progressiveMotility" required>
+                </div>
+                <div class="form-row">
+                <label for="normalMorphology">Morfología Normal (%):</label>
+                <input type="number" id="normalMorphology" name="normalMorphology" required>
+
+                <label for="ph">pH:</label>
+                <input type="number" id="ph" name="ph" required>
+
+                <label for="seminalViscosity">Viscosidad Seminal (cps):</label>
+                <input type="number" id="seminalViscosity" name="seminalViscosity" required>
+
+                <label for="normedSORP">SORP Normalizado (mV/10^6 espermatozoides/ml):</label>
+                <input type="number" id="normedSORP" name="normedSORP" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-section">
+                <legend>Integridad del ADN del Espermatozoide</legend>
+                <div class="form-row">
+                <label for="cma3Percentage">CMA3+ (%):</label>
+                <input type="number" id="cma3Percentage" name="cma3Percentage" required>
+
+                <label for="tunelPercentage">TUNEL+ (%):</label>
+                <input type="number" id="tunelPercentage" name="tunelPercentage" required>
+
+                <label for="alkalineCometOTM">Alkaline Comet OTM:</label>
+                <input type="number" id="alkalineCometOTM" name="alkalineCometOTM" required>
+
+                <label for="neutralCometOTM">Neutral Comet OTM:</label>
+                <input type="number" id="neutralCometOTM" name="neutralCometOTM" required>
+                </div>
+                <div class="form-row">
+                <label for="alkalineCometPercentage">Alkaline Comet (%):</label>
+                <input type="number" id="alkalineCometPercentage" name="alkalineCometPercentage" required>
+
+                <label for="neutralCometPercentage">Neutral Comet (%):</label>
+                <input type="number" id="neutralCometPercentage" name="neutralCometPercentage" required>
+
+                <label for="shannonIndex">Índice de Shannon:</label>
+                <input type="number" id="shannonIndex" name="shannonIndex" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-section">
+                <legend>Cargar CSV</legend>
+                <div class="form-row">
+                    <label for="csvFile">Cargar archivo CSV:</label>
+                    <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
+                    <div id="fileNameDisplay"></div>
+                </div>
+                <div class="form-row">
+                    <label for="dataLevel">Tipo de Nivel:</label>
+                    <select id="dataLevel" name="dataLevel" required>
+                        <option value="Pylum-level">Pylum-level</option>
+                        <option value="Family-level">Family-level</option>
+                        <option value="Genus-level">Genus-level</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <button type="button" onclick="checkFertility()">Comprobar Fertilidad</button>
+        </form>
+
+        <div id="results" class="hidden">
+            <h2>Resultados:</h2>
+            <p id="fertilityStatus"></p>
+            <img id="graphImage" alt="Graph Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
