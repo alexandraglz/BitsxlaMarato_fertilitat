@@ -88,6 +88,6 @@ This project is licensed under the [License Name] - see the LICENSE.md file for 
 ## Contact
 For questions or inquiries, please contact:
 
-[Arlet Corominas](arlet.corominas@estudiantat.upc.edu)
-[Alexandra González](alexandra.gonzalez.alvarez@estudiantat.upc.edu)
-[Hakima Marouan](hakima.marouan@estudiantat.upc.edu)
+[Arlet Corominas](mailto:arlet.corominas@estudiantat.upc.edu)
+[Alexandra González](mailto:alexandra.gonzalez.alvarez@estudiantat.upc.edu)
+[Hakima Marouan](mailto:hakima.marouan@estudiantat.upc.edu)
