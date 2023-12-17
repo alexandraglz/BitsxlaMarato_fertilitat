@@ -43,9 +43,7 @@ docs: Documentation files, including this README.
 We have developed a web application that allows users (doctors) to input new samples and receive predictions for cluster membership and fertility status. The application also provides visualizations of cluster distributions for all bacteria, with the new sample highlighted.
 
 ## Contributors
-[Arlet Corominas](https://github.com/arletcoro)
-[Alexandra González](https://github.com/alexandraglz)
-[Hakima Marouan](https://github.com/haakima)
+The people involved in this project are [Arlet Corominas](https://github.com/arletcoro), [Alexandra González](https://github.com/alexandraglz) and [Hakima Marouan](https://github.com/haakima).
 
 ## Acknowledgments
 We would like to express our gratitude to [La Marató de TV3](https://www.ccma.cat/tv3/marato/2023/310/) and the [Faculty of Informatics at UPC](https://www.fib.upc.edu) for organizing this hackathon and providing us with the opportunity to work on this meaningful project.
