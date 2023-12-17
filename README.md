@@ -74,7 +74,7 @@ docs: Documentation files, including this README.
   
 
 ## Web Application
-We have developed a web application that allows users (doctors) to input new samples and receive predictions for cluster membership and fertility status. The application also provides visualizations of cluster distributions for all bacteria, with the new sample highlighted.
+We've crafted a user-friendly web application for doctors to input samples and receive predictions on cluster membership and fertility status. The app also features visualizations highlighting new samples within overall cluster distributions. Currently in the final development stage, the web page is accessible in the corresponding repository branch because it is not fully functional yet. Your feedback is welcomed as we add the finishing touches before the official launch. Stay tuned for an enhanced user experience in microbial sample analysis and fertility assessment.
 
 ## Contributors
 The people involved in this project are [Arlet Corominas](https://github.com/arletcoro), [Alexandra González](https://github.com/alexandraglz) and [Hakima Marouan](https://github.com/haakima).
