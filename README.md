@@ -11,32 +11,32 @@ web: Frontend code for the web application.
 docs: Documentation files, including this README.
 
 
-├── LICENSE
-├── README.md          <- The top-level README for developers using this project.
-├── requirements.txt         
-├── data
-│   ├── raw            <- The original, immutable data dump.
-│   │   ├── read_data.ipynb <- Script to read input xlsx files and generate a csv for each page.
-|   │   ├── illumina <- Data obtained by Illumina sequencing.
-|   │   |   ├── Family-level microbiota.csv
-|   │   |   ├── Genus-level microbiota.csv
-|   │   |   ├── Pylum-level microbiota.csv
-|   │   |   ├── Sample info + Sperm quality.csv
-|   │   |   ├── README.txt
-|   │   |   └── Metadata_and_relative_abundance_of_seminal_microbiota_from_idiopathic_infertile_patients_and_donors.xlsx
-│   │   ├── nanopore <- Data obtained by Nanopore sequencing.
-|   │   |   ├── MANIFEST.TXT
-|   │   |   ├── README.txt
-|   │   |   └── Relative abundance of seminal microbiota from idiopathic infertile patients and donors using MinION sequencing.xlsx
-│   │   └── NP_metabolica <- Metabolite-Microbe database.
-|   │       ├── NPAtlas.csv
-|   │       └── NPAtlas.xlsx
-|   │
-|   ├── processed  
-|       │
-|       └──
-|   
-└── analysis 
+    ├── LICENSE
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── requirements.txt         
+    ├── data
+    │   ├── raw            <- The original, immutable data dump.
+    │   │   ├── read_data.ipynb <- Script to read input xlsx files and generate a csv for each page.
+    |   │   ├── illumina <- Data obtained by Illumina sequencing.
+    |   │   |   ├── Family-level microbiota.csv
+    |   │   |   ├── Genus-level microbiota.csv
+    |   │   |   ├── Pylum-level microbiota.csv
+    |   │   |   ├── Sample info + Sperm quality.csv
+    |   │   |   ├── README.txt
+    |   │   |   └── Metadata_and_relative_abundance_of_seminal_microbiota_from_idiopathic_infertile_patients_and_donors.xlsx
+    │   │   ├── nanopore <- Data obtained by Nanopore sequencing.
+    |   │   |   ├── MANIFEST.TXT
+    |   │   |   ├── README.txt
+    |   │   |   └── Relative abundance of seminal microbiota from idiopathic infertile patients and donors using MinION sequencing.xlsx
+    │   │   └── NP_metabolica <- Metabolite-Microbe database.
+    |   │       ├── NPAtlas.csv
+    |   │       └── NPAtlas.xlsx
+    |   │
+    |   ├── processed  
+    |       │
+    |       └──
+    |   
+    └── analysis 
   
 
 ## Web Application
