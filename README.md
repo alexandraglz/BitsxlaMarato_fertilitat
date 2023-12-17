@@ -17,56 +17,56 @@ docs: Documentation files, including this README.
     ├── data
     │   ├── raw            <- The original, immutable data dump.
     │   │   ├── read_data.ipynb <- Script to read input xlsx files and generate a csv for each page.
-    |   │   ├── illumina <- Data obtained by Illumina sequencing.
-    |   │   |   ├── Family-level microbiota.csv
-    |   │   |   ├── Genus-level microbiota.csv
-    |   │   |   ├── Pylum-level microbiota.csv
-    |   │   |   ├── Sample info + Sperm quality.csv
-    |   │   |   ├── README.txt
-    |   │   |   └── Metadata_and_relative_abundance_of_seminal_microbiota_from_idiopathic_infertile_patients_and_donors.xlsx
+    │   │   ├── illumina <- Data obtained by Illumina sequencing.
+    │   │   │   ├── Family-level microbiota.csv
+    │   │   │   ├── Genus-level microbiota.csv
+    │   │   │   ├── Pylum-level microbiota.csv
+    │   │   │   ├── Sample info + Sperm quality.csv
+    │   │   │   ├── README.txt
+    │   │   │   └── Metadata_and_relative_abundance_of_seminal_microbiota_from_idiopathic_infertile_patients_and_donors.xlsx
     │   │   ├── nanopore <- Data obtained by Nanopore sequencing.
-    |   │   |   ├── MANIFEST.TXT
-    |   │   |   ├── README.txt
-    |   │   |   └── Relative abundance of seminal microbiota from idiopathic infertile patients and donors using MinION sequencing.xlsx
+    │   │   │   ├── MANIFEST.TXT
+    │   │   │   ├── README.txt
+    │   │   │   └── Relative abundance of seminal microbiota from idiopathic infertile patients and donors using MinION sequencing.xlsx
     │   │   └── NP_metabolica <- Metabolite-Microbe database.
-    |   │       ├── NPAtlas.csv
-    |   │       └── NPAtlas.xlsx
-    |   │
-    |   └── processed  
-    |       ├── family_clusters_fertility.csv
-    |       ├── genus_clusters_fertility.csv
-    |       └── pylum_clusters_fertility.csv
-    |  
+    │   │       ├── NPAtlas.csv
+    │   │       └── NPAtlas.xlsx
+    │   │
+    │   └── processed  
+    │       ├── family_clusters_fertility.csv
+    │       ├── genus_clusters_fertility.csv
+    │       └── pylum_clusters_fertility.csv
+    │  
     ├── src
     │   ├── features
     │   │   └── read_data.ipynb
-    |   │
-    |   └── models 
+    │   │
+    │   └── models 
     │       ├── KNN 
-    │       |   ├── family_knn
-    │       |   ├── genus_knn
-    │       |   └── pylum_knn
+    │       │   ├── family_knn
+    │       │   ├── genus_knn
+    │       │   └── pylum_knn
     │       ├── MLP 
-    │       |   ├── family_mlp
-    │       |   ├── genus_mlp
-    │       |   └── pylum_mlp
+    │       │   ├── family_mlp
+    │       │   ├── genus_mlp
+    │       │   └── pylum_mlp
     │       └── RandomForest 
     │           ├── family_random_forest
     │           ├── genus_random_forest
     │           └── pylum_random_forest
-    |    
+    │    
     └── analysis
         ├── KNN
-        |   ├── family_clusters_knn.ipynb
-        |   ├── genus_clusters_knn.ipynb
+        │   ├── family_clusters_knn.ipynb
+        │   ├── genus_clusters_knn.ipynb
         │   └── pylum_clusters_knn.ipynb
         ├── MLP
-        |   ├── family_mlp_model.ipynb
-        |   ├── genus_mlp_model.ipynb
+        │   ├── family_mlp_model.ipynb
+        │   ├── genus_mlp_model.ipynb
         │   └── pylum_mlp_model.ipynb
         ├── RandomForest
-        |   ├── family_randomforest_model.ipynb
-        |   ├── genus_randomforest_model.ipynb
+        │   ├── family_randomforest_model.ipynb
+        │   ├── genus_randomforest_model.ipynb
         │   └── pylum_randomforest_model.ipynb
         ├── analysis_clinical_info.ipynb
         └── check_fertility_model_pylum.ipynb
