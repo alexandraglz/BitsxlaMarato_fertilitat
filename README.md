@@ -43,13 +43,34 @@ docs: Documentation files, including this README.
     |   │
     |   └── models 
     │       ├── KNN 
-    │       |   ├──
-    │       |   ├──
-    │       |   ├──
+    │       |   ├── family_knn
+    │       |   ├── genus_knn
+    │       |   └── pylum_knn
     │       ├── MLP 
+    │       |   ├── family_mlp
+    │       |   ├── genus_mlp
+    │       |   └── pylum_mlp
     │       └── RandomForest 
+    │           ├── family_random_forest
+    │           ├── genus_random_forest
+    │           └── pylum_random_forest
     |    
-    └── analysis 
+    └── analysis
+        ├── KNN
+        |   ├── family_clusters_knn.ipynb
+        |   ├── genus_clusters_knn.ipynb
+        │   └── pylum_clusters_knn.ipynb
+        ├── MLP
+        |   ├── family_mlp_model.ipynb
+        |   ├── genus_mlp_model.ipynb
+        │   └── pylum_mlp_model.ipynb
+        ├── RandomForest
+        |   ├── family_randomforest_model.ipynb
+        |   ├── genus_randomforest_model.ipynb
+        │   └── pylum_randomforest_model.ipynb
+        ├── analysis_clinical_info.ipynb
+        └── check_fertility_model_pylum.ipynb
+
   
 
 ## Web Application
