@@ -32,10 +32,23 @@ docs: Documentation files, including this README.
     |   │       ├── NPAtlas.csv
     |   │       └── NPAtlas.xlsx
     |   │
-    |   ├── processed  
-    |       │
-    |       └──
-    |   
+    |   └── processed  
+    |       ├── family_clusters_fertility.csv
+    |       ├── genus_clusters_fertility.csv
+    |       └── pylum_clusters_fertility.csv
+    |  
+    ├── src
+    │   ├── features
+    │   │   └── read_data.ipynb
+    |   │
+    |   └── models 
+    │       ├── KNN 
+    │       |   ├──
+    │       |   ├──
+    │       |   ├──
+    │       ├── MLP 
+    │       └── RandomForest 
+    |    
     └── analysis 
   
 
