@@ -6,7 +6,7 @@ This repository contains the codebase and documentation for our award-winning pr
 ## Hackathon Victory
 🏆 **We Won the Hackathon!** Our project was awarded first place at the [BitsxlaMarató 2023 Hackathon](https://www.fib.upc.edu/ca/la-marato) organized by the Faculty of Informatics of Barcelona (FIB), [Hackers@UPC](https://hackersatupc.org/) and [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC)](https://www.bsc.es/). We are excited and grateful for this recognition, highlighting our team's dedication and innovative approach in investigating potential associations between bacterial profiles and male fertility.
 
-To delve into our project's journey, check out our [Devpost submission](<link-to-your-devpost-submission>).
+To delve into our project's journey, check out our [Devpost submission](https://devpost.com/software/hacking-the-secrets-of-the-seminal-microbiome).
 
 ## Project Structure
 data: Contains the datasets used for analysis.
