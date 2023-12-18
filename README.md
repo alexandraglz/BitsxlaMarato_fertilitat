@@ -1,7 +1,12 @@
 # BitsxlaMarato 2023: Hacking the secrets of the seminal microbiome
 
 ## Overview
-This repository contains the codebase and documentation for our project developed during the [BitsxlaMarató 2023 Hackathon](https://www.fib.upc.edu/ca/la-marato) at the Faculty of Informatics of Barcelona (FIB), Technical University of Catalonia (UPC). The goal of our project is to investigate potential associations between bacterial profiles, derived from clinical and seminal microbiota data of infertile patients and controls, and male fertility. We have employed advanced bioinformatics tools, statistical analysis, and machine learning algorithms for this purpose.
+This repository contains the codebase and documentation for our award-winning project developed during the [BitsxlaMarató 2023 Hackathon](https://www.fib.upc.edu/ca/la-marato) at the Faculty of Informatics of Barcelona (FIB), Technical University of Catalonia (UPC). The goal of our project is to investigate potential associations between bacterial profiles, derived from clinical and seminal microbiota data of infertile patients and controls, and male fertility. We have employed advanced bioinformatics tools, statistical analysis, and machine learning algorithms for this purpose.
+
+## Hackathon Victory
+🏆 **We Won the Hackathon!** Our project was awarded first place at the [BitsxlaMarató 2023 Hackathon](https://www.fib.upc.edu/ca/la-marato) organized by the Faculty of Informatics of Barcelona (FIB), Technical University of Catalonia (UPC). We are excited and grateful for this recognition, highlighting our team's dedication and innovative approach in investigating potential associations between bacterial profiles and male fertility.
+
+To delve into our project's journey, check out our [Devpost submission](<link-to-your-devpost-submission>).
 
 ## Project Structure
 data: Contains the datasets used for analysis.
@@ -70,9 +75,7 @@ docs: Documentation files, including this README.
         │   └── pylum_randomforest_model.ipynb
         ├── analysis_clinical_info.ipynb
         └── check_fertility_model_pylum.ipynb
-
   
-
 ## Web Application
 We've crafted a user-friendly web application for doctors to input samples and receive predictions on cluster membership and fertility status. The app also features visualizations highlighting new samples within overall cluster distributions. Currently in the final development stage, the web page is accessible in the corresponding repository branch because it is not fully functional yet. Your feedback is welcomed as we add the finishing touches before the official launch. Stay tuned for an enhanced user experience in microbial sample analysis and fertility assessment.
 
@@ -88,6 +91,6 @@ This project is licensed under the [License Name] - see the LICENSE.md file for 
 ## Contact
 For questions or inquiries, please contact:
 
-[Arlet Corominas](mailto:arlet.corominas@estudiantat.upc.edu)
-[Alexandra González](mailto:alexandra.gonzalez.alvarez@estudiantat.upc.edu)
-[Hakima Marouan](mailto:hakima.marouan@estudiantat.upc.edu)
+- [Arlet Corominas](mailto:arlet.corominas@estudiantat.upc.edu)
+- [Alexandra González](mailto:alexandra.gonzalez.alvarez@estudiantat.upc.edu)
+- [Hakima Marouan](mailto:hakima.marouan@estudiantat.upc.edu)
